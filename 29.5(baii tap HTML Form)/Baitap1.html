@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tao form đơn giản</title>
+</head>
+<style>
+    td{
+        color: blue;
+    }
+    th{
+        color: aliceblue;
+    }
+    .sothich{
+        color: orange;
+    }
+    table{
+        border-width: 5px;
+        border-top: 5px;
+        border-left: 10px;
+        border-right: 10px;
+        border-style: solid;
+        border-color: aqua;
+    }
+    
+
+</style>
+<body>
+    
+    <form action="">
+        <table align="center">
+            <tr >
+              <th colspan="2" bgcolor="red" >SỞ THÍCH CỦA BẠN</th>
+            </tr>
+            <tr>
+                <td>Họ và tên</td>
+                <td>
+                   <input type="texbox" name="yourname"> 
+                </td>
+            </tr>
+            <tr>
+                <td>Email</td>
+                <td>
+                    <input type="textbox" name="email">
+                </td>
+            </tr>
+            <tr>
+                <td align="top">Sở thích </td>
+                <td class="sothich">
+                    <input type="checkbox" name="tt" > Thể thao
+                    <input type="checkbox" name="an" >Âm nhạc
+                    <input type="checkbox" name="đs" >Đọc sách
+                    <br> 
+                    <input type="checkbox" name="luotweb" >Lướt web
+                    <input type="checkbox" name="choigame" >Chơi game
+                    <input type="checkbox" name="dienanh" >Điện ảnh
+                    <br>
+                    <input type="checkbox" name="dulich" >Du lịch
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2"  align="center">
+                    <input type="submit" name="submit" value="Gửi thông tin" >&nbsp;
+                    <input type="Reset" name="Nhập lại" value="Nhập lại"> 
+                </td>
+
+            </tr>
+                
+        </table>
+    </form>
+</body>
+</html>
