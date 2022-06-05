@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color:yellow;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            /* thay doi phong chữ thành sans-serif */
+        }
+        h1 {
+            /*  
+            */
+            color:rgb(205, 40, 5);
+            background-color:bisque;
+            border-radius: 10px;
+            width: fit-content;
+            padding: 20px;
+            margin-left: 30%;
+            
+        }
+        h2{
+            background-color: aqua;
+            letter-spacing: 2px;
+            /*  letter-spacing: 2px; thay đổi khoảng cách giữa các kí tự */
+        }
+        #general {
+            /* text-decoration: underline :gach chan */
+            text-decoration: underline;
+        }
+        .italic {
+            /*  font-style: italic; chu in nghieng */
+            font-style: italic;
+        }
+        img{
+            /* border-width: 2px;
+            border-style: solid;
+            border-color: black; */
+            border: 2px dashed black;
+            border-radius:  100%;
+            /*Bo tron góc của element bất kì */
+            
+            
+        }
+        table, th ,td {
+            border : 5px solid red;
+            border-collapse: collapse;
+        }
+
+
+    </style>
+</head>
+<body>
+    <!-- the heading -->
+    <h1>NGUYEN THI THU HIEN Portfolio</h1>
+    <img src="./kimtehey.jpg" alt="">
+    <video src="video-1653545207.mp4" controls height="500"></video>
+    <hr>
+    <!-- (./)hien thi duong tryen trong cung mot cho -->
+    <h2 class="italic" id="general">General Informstion</h2>
+    <hr>
+    <h3 class="italic">Name</h3>
+    <p><i>NGUYEN THI THU HIEN</i></p>
+    <h3 class="italic">Age</h3>
+    <p>24</p>
+    <h3 class="italic">Address</h3>
+    <p><del>Quang Tri</del></p>
+    <h3 class="italic">Phone number</h3>
+    <p>02222402681</p>
+    <h3 class="italic">Email</h3>
+    <p>pils21798@gmail.com</p>
+    <h3 class="italic">Gender</h3>
+    <p>nu</p>
+    <h3 class="italic">GitHub link</h3>
+    <p>https://github.com/nguyenthithuhien98</p>
+    <h2>Work Experience</h2>
+    <!-- ol hiển thị danh sách có stt -->
+    <ol>
+        <li>phuc vu nha hang</li>
+        <li>lam viec tai nhat</li>
+    </ol>
+    <hr>
+    <h2>Favorite Music</h2>
+    <!-- ul danh sách không có stt -->
+    <ul>
+        <li>
+            con duong mua<br>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/L6Xp_a106Bc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </li>
+    <br>
+
+        <li> 
+            anh cu di di <br>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/Y7nkqZvQcBQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </li>
+    </ul>
+    <hr>
+    <h2>Contact</h2>
+    <a href="https://www.facebook.com/profile.php?id=100046141853165">trang facebook</a>
+    <h2>My projects</h2>
+    <table>
+        <tr>
+            <th>No.</th>
+            <th>Project name</th>
+        </tr>
+        <tr>
+           <td>1</td>
+           <td>Prortfolio</td> 
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Twitter Page</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Cat ID Registration Page</td>
+        </tr>
+    </table>
+</body>
+</html>
