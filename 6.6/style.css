@@ -1,0 +1,15 @@
+img {
+    width: 200px;
+    display: block;
+    margin: auto;
+}
+h1,p {
+   /* display: inline; */
+}
+p{
+    /* display: none; */
+}
+h1 {
+    width: 300px;
+    margin: auto;
+}
