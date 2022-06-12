@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body {
+    margin: 0px auto;
+}
+
+#header{
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    background-color: orange;
+    text-align: center;
+
+}
+
+#menu{
+    width: 100%;
+    background-color:white;
+    /* text-align: center; */
+    height: 80px;
+    line-height: 40px;
+
+}
+#menu ul {
+    margin: 0px;
+    padding: 0px;
+    list-style-type:none ;
+
+}
+#menu ul li {
+    /* display: inline-block; */
+    float: left;
+}
+#menu ul li a {
+    text-decoration: none;
+    /* margin: 30px; */
+    padding: 0 30px;
+    border-right: 1px solid black;
+}
+#menu ul li:last-child a {
+    border: none;
+}
+#menu ul li a:hover {
+    background-color: #ccc;
+    color:#111 ;
+    height: 30px;
+    display: block;
+}
+
+#main{
+
+
+}
+
+#left{
+    width: 70%;
+    min-height: 300px;
+    background-color:white;
+    float: left;
+
+}
+#left ul {
+    list-style-type: none;
+}
+#left ul li {
+
+   width: 100%;
+   clear: both;
+   float: left;
+   margin-bottom: 15px;
+   
+
+}
+#left ul li img {
+    float: left;
+    width: 200px;
+    border: 1px solid #ccc;
+    padding: 2px;
+    margin-right: 10px;
+
+}
+#left ul li p {
+    height: 110px;
+    /* border: 1px solid; */
+}
+
+
+#right{
+    width: 30%;
+    /* height: 60%; */
+    min-height:  300px;;
+    background-color: green;
+    float: left;
+
+}
+
+#footer{
+    background: yellow;
+    width: 100%;
+    line-height: 45px;
+    height: 45px;
+    clear: both;
+
+}
+
